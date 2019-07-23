@@ -4,5 +4,9 @@ import com.bjsxt.pojo.User;
 
 public interface UserMapper {
     public void login(User user);
+
+    public void register(User user);
+
     public void register2(User user);
+
 }
